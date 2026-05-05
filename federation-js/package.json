@@ -1,12 +1,12 @@
 {
-  "name": "@apollo/federation",
+  "name": "@brooklyn-labs/federation",
   "version": "0.33.9",
   "description": "Apollo Federation Utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apollographql/federation.git",
+    "url": "git+https://github.com/brooklyn-labs/federation.git",
     "directory": "federation-js/"
   },
   "keywords": [
@@ -22,8 +22,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "bugs": {
+    "url": "https://github.com/brooklyn-labs/federation/issues"
+  },
+  "homepage": "https://github.com/brooklyn-labs/federation",
   "dependencies": {
-    "@apollo/subgraph": "file:../subgraph-js",
+    "@brooklyn-labs/subgraph": "file:../subgraph-js",
     "apollo-graphql": "^0.9.5",
     "apollo-server-types": "^3.0.2",
     "lodash.xorby": "^4.7.0"
