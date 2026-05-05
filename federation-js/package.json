@@ -1,6 +1,6 @@
 {
   "name": "@brooklyn-labs/federation",
-  "version": "0.33.9",
+  "version": "0.33.10",
   "description": "Apollo Federation Utilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
